@@ -1,0 +1,535 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+
+
+@media screen and (min-width: 1025px) {
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --cor1: #000000; 
+    --cor2: #fff;
+    --cor3: #CFDA4D;
+    --cor4: #383333;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #383333;
+    color: white;
+}
+
+/* ----- Header ----- */
+header{
+    background-color: #181717;
+}
+.nav-bar{
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+}
+.nav-link:hover{
+    color: #CFDA4D;
+    transition: 1s;
+}
+
+#container{
+    display: none;
+}
+
+
+#mobile-menu-icon button{
+    display: none;
+}   
+
+#menu{
+    display: none;
+}
+
+
+/* ---------------------*/
+
+/* ---------------------------------------------- */
+section#home{
+    width: 100vw;
+    height: calc(100vh - 90px);
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("../Imagens/01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+section#home > div#title{
+    margin-bottom: 114px;
+}
+section#home > div#title h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 48px;
+}
+section#home > div#title p{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+section#home > div#title p > span{
+    color: #CFDA4D;
+    text-shadow: 0px 0px 1px black;
+}
+section#home a > button{
+    font-family: 'Inter', sans-serif;
+    background-color: #CFDA4D;
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 4em;
+    color: #383333;
+    
+    transition: 0.3s;
+}
+section#home a > button:hover{
+    transform: scale(1.20);
+    cursor: pointer;
+}
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+section#diferenciais{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+/* ---------------------*/
+section#diferenciais > h2{
+    font-family: 'Krub', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+section#diferenciais > hr{
+    background-color: white;
+    width: 700px;
+    height: 1px;
+    margin-bottom: 64px;
+}
+/* ---------------------*/
+div#info{
+    width: calc(100vw - 500px);
+    display: flex;
+    justify-content: space-between;
+}
+div#info > div.info{
+    width: 250px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+div#info > div.info h3{
+    color: #CFDA4D;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 200;
+}
+div#info > div.info p{
+    margin-top: 29px;
+    text-align: center;
+    font-size: 14px;
+}
+/* ---------------------*/
+div#img{
+    width: calc(100vw - 500px);
+    display: flex;
+    justify-content: space-between;
+}
+div#img #img01{
+    width: 250px;
+    height: 230px;
+    background-image: url("../Imagens/modernização02.jpeg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+div#img #img02{
+    width: 250px;
+    height: 230px;
+    background-image: url("../Imagens/atendimento02.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div#img #img03{
+    width: 250px;
+    height: 230px;
+    background-image: url("../Imagens/custobeneficio02.jpeg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+/* ---------------------*/
+section#diferenciais a > button{
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 3em;
+    color: white;
+    margin-top: 30px;
+    transition: 0.5s;
+
+}
+section#diferenciais a > button:hover{
+    background-color: #CFDA4D;
+    color: #383333;
+    transform: scale(1.20);
+    cursor: pointer;
+    border: none;
+}
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+section#serviços{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CFDA4D;
+}
+/* ---------------------*/
+section#serviços > p{
+    padding: 20px 0px;
+    font-size: 24px;
+}
+/* ---------------------*/
+section#serviços > div#serv{
+    width: 100%;
+    border-top: 3px solid #383333;
+    border-bottom: 3px solid #383333;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+section#serviços > div#serv h2{
+    font-family: 'Krub', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+section#serviços > div#serv hr{
+    background-color: white;
+    width: 220px;
+    height: 1px;
+    margin-bottom: 64px;
+}
+/* ---------------------*/
+section#serviços > div#serv > div#img{
+    width: calc(100vw - 500px);
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+div#img div#simg01{
+    background-image: url("../Imagens/Negocio.png");
+    background-repeat: no-repeat;
+}
+div#img div#simg02{
+    background-image: url("../Imagens/Montagem.png");
+    background-repeat: no-repeat;
+}
+div#img div#simg03{
+    background-image: url("../Imagens/Fabricação.png");
+    background-repeat: no-repeat;
+}
+.imgServ{
+    width: 250px;
+    height: 230px;
+    background-position: left center;
+}
+section#serviços > div#serv > div#servdiv{
+    width: calc(100vw - 500px);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+div.pinfo{
+    width: 250px;
+    height: 200px;  
+    padding: 5px;
+}
+/* ---------------------*/
+section#serviços > div#icons{
+    width: calc(100vw - 500px);
+    display: flex;
+    justify-content: space-between;
+    color: #383333;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+section#serviços > div#icons > div.icon{
+    width: 200px;
+    text-align: center;
+}
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+section#inspiração{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section#inspiração > h2{
+    font-family: 'Krub', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+section#inspiração > hr{
+    background-color: white;
+    width: 280px;
+    height: 1px;
+    margin-bottom: 64px;
+}
+/* ---------------------*/
+div.divisão > img{
+    margin: 2.5px;
+}
+/* ---------------------*/
+
+/* ---------------------------------------------- */
+hr#sobsobre{
+    width: 100vw;
+    height: 3px;
+    background-color: #CFDA4D;
+}
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+section#sobreNos{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* ---------------------*/
+section#sobreNos h2{
+    font-family: 'Krub', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+section#sobreNos hr{
+    background-color: white;
+    width: 280px;
+    height: 1px;
+    margin-bottom: 64px;
+}
+/* ---------------------*/
+section#sobreNos > div#imgetxt{
+    width: calc(100vw - 500px);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+section#sobreNos > div#imgetxt > div#sbrimg{
+    width: 50%;
+    height: 504px;
+    background-image: url("../Imagens/WhatsApp\ Image\ 2023-03-29\ at\ 14.41.35\ \(2\).jpeg")
+}
+section#sobreNos > div#imgetxt > div#sbrtxt{
+    width: 47%;
+    font-family: 'Krub', sans-serif;
+}
+div#sbrtxt button{
+    margin-top: 70px;
+    background-color: transparent;
+    border: 1px solid #CFDA4D;
+    border-radius: 10px;
+    color: #CFDA4D;
+    padding: 5px;
+    width: 300px;
+    height: 65px;
+    font-size: 1.7em;
+    font-family: 'Inter', sans-serif;
+    transition: 0.5s;
+}
+section#sobreNos a > button:hover{
+    background-color: #CFDA4D;
+    color: #383333;
+    transform: scale(1.20);
+    cursor: pointer;
+    border: none;
+}
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+section#contato{
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("../Imagens/Contato.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+}
+
+section#contato h2{
+    font-family: 'Krub', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+section#contato hr{
+    background-color: white;
+    width: 220px;
+    height: 1px;
+    margin-bottom: 64px;
+}
+/* ---------------------*/
+div#cont{
+    width: calc(100vw - 500px);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+div#redes{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+div#redes a{
+    margin: 0 8px;
+    display: flex;
+}
+div#redes div#insta{
+    display: flex;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    justify-content: center;
+    color: white;
+}
+div#redes div#insta > p{
+    display: none;
+}
+div#redes div#insta:hover{ 
+    display: flex;
+    width: 180px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #383333;
+    justify-content: left;
+    animation-name: mudaCorP;
+    animation-duration: 2s;
+    transition: .3s;
+}
+div#redes div#insta:hover > p{
+    display: flex;
+    font-size: 24px;
+    margin: auto 10px;
+}
+div#redes div#wpp{
+    display: flex;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+div#redes div#wpp:hover{ 
+    display: flex;
+    width: 180px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #383333;
+    justify-content: left;
+    animation-name: mudaCorP;
+    animation-duration: 2s;
+    transition: .3s;
+}
+div#redes div#wpp > p{
+    display: none;
+}
+div#redes div#wpp:hover > p{
+    display: flex;
+    font-size: 24px;
+    margin: auto 10px;
+}
+
+@keyframes mudaCorP {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: white;}
+  }
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+footer{
+    background-color: #000000;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+/* ---------------------------------------------- */
+}
+
+
+
