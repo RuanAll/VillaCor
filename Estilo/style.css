@@ -33,7 +33,7 @@ header{
 }
 .nav-bar{
     display: flex;
-    padding: 2% 5%;
+    padding: 2% 10%;
     justify-content: space-between;
 }
 .logo{
@@ -43,7 +43,7 @@ header{
 .nav-list{
     display: flex;
     align-items: center;
-
+    margin-left: 35em;
 }
 .nav-list ul{
     display: flex;
@@ -183,7 +183,7 @@ div#img{
 div#img #img01{
     width: 250px;
     height: 230px;
-    background-image: url("../Imagens/modernização02.jpeg");
+    background-image: url("../Imagens/modernizacao02.jpeg");
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -277,7 +277,7 @@ div#img div#simg02{
     background-repeat: no-repeat;
 }
 div#img div#simg03{
-    background-image: url("../Imagens/Fabricação.png");
+    background-image: url("../Imagens/Fabricacao.png");
     background-repeat: no-repeat;
 }
 .imgServ{
@@ -457,6 +457,7 @@ div#redes{
 div#redes a{
     margin: 0 8px;
     display: flex;
+    text-decoration: none;
 }
 div#redes div#insta{
     display: flex;
