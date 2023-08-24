@@ -189,7 +189,7 @@
     div#img #img01{
         width: 250px;
         height: 230px;
-        background-image: url("../Imagens/modernização02.jpeg");
+        background-image: url("../Imagens/modernizacao02.jpeg");
         background-repeat: no-repeat;
         background-position: left center;
     }
@@ -230,7 +230,7 @@
     /* ---------------------------------------------- */
     
     /* ---------------------------------------------- */
-    section#serviços{
+    section#servicos{
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -238,13 +238,13 @@
         background-color: #CFDA4D;
     }
     /* ---------------------*/
-    section#serviços > p#principal{
+    section#servicos > p#principal{
         padding: 20px 0px;
         font-size: 24px;
         text-align: center;
     }
     /* ---------------------*/
-    section#serviços > div#serv{
+    section#servicos > div#serv{
         width: 100%;
         border-top: 3px solid #383333;
         border-bottom: 3px solid #383333;
@@ -254,20 +254,20 @@
         display: flex;
         flex-direction: column;
     }
-    section#serviços > div#serv h2{
+    section#servicos > div#serv h2{
         font-family: 'Krub', sans-serif;
         font-size: 40px;
         font-weight: 200;
         text-align: center;
     }
-    section#serviços > div#serv hr{
+    section#servicos > div#serv hr{
         background-color: white;
         width: 220px;
         height: 1px;
         margin-bottom: 64px;
     }
     /* ---------------------*/
-    section#serviços > div#serv > div#img{
+    section#servicos > div#serv > div#img{
         width: 750px;
         justify-content: center;
         font-size: 25px;
@@ -283,7 +283,7 @@
         background-repeat: no-repeat;
     }
     div#img div#simg03{
-        background-image: url("../Imagens/Fabricação.png");
+        background-image: url("../Imagens/Fabricacao.png");
         background-repeat: no-repeat;
     }
     .imgServ{
@@ -291,7 +291,7 @@
         height: 230px;
         background-position: left center;
     }
-    section#serviços > div#serv > div#servdiv{
+    section#servicos > div#serv > div#servdiv{
         width: 750px;
         justify-content: center;
         font-size: 25px;
@@ -304,7 +304,7 @@
         padding: 5px;
     }
     /* ---------------------*/
-    section#serviços > div#icons{
+    section#servicos > div#icons{
         width: 700px;
         display: flex;
         justify-content: space-between;
@@ -313,14 +313,14 @@
         margin-bottom: 25px;
     }
     
-    section#serviços > div#icons > div.icon{
+    section#servicos > div#icons > div.icon{
         width: 200px;
         text-align: center;
     }
     /* ---------------------------------------------- */
     
     /* ---------------------------------------------- */
-    section#inspiração{
+    section#inspiracao{
         width: 100%;
         align-items: center;
         justify-content: space-between;
@@ -329,13 +329,13 @@
         flex-direction: column;
         text-align: center;
     }
-    section#inspiração > h2{
+    section#inspiracao > h2{
         font-family: 'Krub', sans-serif;
         font-size: 40px;
         font-weight: 200;
         text-align: center;
     }
-    section#inspiração > hr{
+    section#inspiracao > hr{
         background-color: white;
         width: 280px;
         height: 1px;

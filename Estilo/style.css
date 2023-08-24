@@ -225,7 +225,7 @@ section#diferenciais a > button:hover{
 /* ---------------------------------------------- */
 
 /* ---------------------------------------------- */
-section#serviços{
+section#servicos{
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -233,12 +233,12 @@ section#serviços{
     background-color: #CFDA4D;
 }
 /* ---------------------*/
-section#serviços > p{
+section#servicos > p{
     padding: 20px 0px;
     font-size: 24px;
 }
 /* ---------------------*/
-section#serviços > div#serv{
+section#servicos > div#serv{
     width: 100%;
     border-top: 3px solid #383333;
     border-bottom: 3px solid #383333;
@@ -248,20 +248,20 @@ section#serviços > div#serv{
     display: flex;
     flex-direction: column;
 }
-section#serviços > div#serv h2{
+section#servicos > div#serv h2{
     font-family: 'Krub', sans-serif;
     font-size: 40px;
     font-weight: 200;
     text-align: center;
 }
-section#serviços > div#serv hr{
+section#servicos > div#serv hr{
     background-color: white;
     width: 220px;
     height: 1px;
     margin-bottom: 64px;
 }
 /* ---------------------*/
-section#serviços > div#serv > div#img{
+section#servicos > div#serv > div#img{
     width: calc(100vw - 500px);
     justify-content: center;
     font-size: 25px;
@@ -285,7 +285,7 @@ div#img div#simg03{
     height: 230px;
     background-position: left center;
 }
-section#serviços > div#serv > div#servdiv{
+section#servicos > div#serv > div#servdiv{
     width: calc(100vw - 500px);
     font-size: 25px;
     display: flex;
@@ -297,7 +297,7 @@ div.pinfo{
     padding: 5px;
 }
 /* ---------------------*/
-section#serviços > div#icons{
+section#servicos > div#icons{
     width: calc(100vw - 500px);
     display: flex;
     justify-content: space-between;
@@ -306,14 +306,14 @@ section#serviços > div#icons{
     margin-bottom: 25px;
 }
 
-section#serviços > div#icons > div.icon{
+section#servicos > div#icons > div.icon{
     width: 200px;
     text-align: center;
 }
 /* ---------------------------------------------- */
 
 /* ---------------------------------------------- */
-section#inspiração{
+section#inspiracao{
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -322,20 +322,20 @@ section#inspiração{
     flex-direction: column;
     text-align: center;
 }
-section#inspiração > h2{
+section#inspiracao > h2{
     font-family: 'Krub', sans-serif;
     font-size: 40px;
     font-weight: 200;
     text-align: center;
 }
-section#inspiração > hr{
+section#inspiracao > hr{
     background-color: white;
     width: 280px;
     height: 1px;
     margin-bottom: 64px;
 }
 /* ---------------------*/
-div.divisão > img{
+div.divisao > img{
     margin: 2.5px;
 }
 /* ---------------------*/
