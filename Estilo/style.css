@@ -244,7 +244,7 @@ section#servicos > div#serv{
     border-bottom: 3px solid #383333;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
 }
@@ -317,7 +317,7 @@ section#inspiracao{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -353,7 +353,7 @@ section#sobreNos{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -425,7 +425,7 @@ section#contato{
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 section#contato h2{
